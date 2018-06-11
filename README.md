@@ -2,8 +2,11 @@
 Test repo for MS demonstrating issues with MS Build not respecting Configuration when publishing File Systems
 
 MSBuild Version: 15.7.179.6572
+
 Visual Studio Version: 15.7.3
-Powershell command: "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\msbuild.exe" ` "TestMSBuild.Web.csproj" `
+
+Powershell command: "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\msbuild.exe" `
+"TestMSBuild.Web.csproj" `
 /p:DeployOnBuild=true `
 /p:PublishProfile="Release Deploy"
 
