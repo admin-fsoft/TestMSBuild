@@ -5,7 +5,7 @@ MSBuild Version: 15.7.179.6572
 
 Visual Studio Version: 15.7.3
 
-Powershell command: "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\msbuild.exe" `
+Powershell command: & "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\msbuild.exe" `
 "TestMSBuild.Web.csproj" `
 /p:DeployOnBuild=true `
 /p:PublishProfile="Release Deploy"
